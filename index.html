@@ -9,16 +9,16 @@
     <title>Stack</title>
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
-    <link rel="shortcut icon" type="image/png" href="">
+    <link rel="shortcut icon" type="image/png" href="img/logo.png">
   </head>
   <body>
     <!---Header Start--->
     <header>
       <div id="header_inner">
-        <h2><a href="index.html">STACK</a></h2>
+        <h3><a href="index.html">STACK</a></h3>
         <!--Navigation Bar Start-->
         <nav class="navbar">
-          <a href="#" id="menu_icon"></a> <!--- menu icon for mobile view --->
+          <a href="" id="menu_icon"></a> <!--- menu icon for mobile view --->
           <ul>
             <li><a href="index.html" class="current">Home</a></li>
             <li><a href="#services">Services</a></li>
@@ -50,7 +50,6 @@
     <!---Header End--->
 
     <!--Banner Start-->
-    <img src="img/banner.png" alt="banner">
     <section class="banner">
       <div class="banner_inner">
         <h1 id="banner_headline">Welcome to the page</h1>
@@ -210,6 +209,7 @@
     <section class="plans_&_pricing">
       <h1 id="plans_&_pricing">PLANS & PRICING</h1>
       <img src="img/P.jpg">
+      <form>
       <div class="starter">
         <h4>Starter</h4>
         <h3 class="payment"><sup class="dollar">&dollar;</sup><span class="number"> 30</span> <span class="month"> / month</span></h3>
@@ -270,6 +270,7 @@
         </ul>
         <button class="button_order" type="submit" name="Order_now">ORDER NOW</button>
       </div>
+    </form>
     </section>
     <!--Plans & Pricing End-->
 
@@ -287,5 +288,104 @@
       </div>
     </section>
     <!--Bio End-->
+
+    <!--Contact Start-->
+    <section class="contact">
+      <div class="contact_description">
+      <h1 id="contact">CONTACT</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris et egestas nisl, ut laoreet ante. Pellentesque ullamcorper velit tempus tincidunt iaculis. In lobortis eget erat nec rhoncus. Mauris pellentesque purus odio. Donec vel nulla mauris. Fusce convallis sagittis blandit. Aenean dictum, nisl ac suscipit luctus, leo velit porttitor elit, quis tincidunt ante est vitae tellus. Duis nec velit mauris.</p>
+      <br>
+      <a href="mailto:filip.mehmetovic@gmail.com?subject= [Name][Surname][Reason]">
+      <button type="submit" name="email">EMAIL US</button>
+      </a>
+      <button type="submit" name="call">CALL US</button> <!--Targetat na sta button ide dalje-->
+      </div>
+      <div class="input_contact">
+        <form>
+        <div class="input_name">
+        <label for="name">FIRST NAME</label>
+        <br>
+        <br>
+        <span class="register_icon"><img src="img/register_name.png" alt="register name icon"></span>
+        <input type="text" placeholder="Name" name="name">
+        </div>
+        <br>
+        <div class="input_lastname">
+          <label for="lastname">LAST NAME</label>
+          <br>
+          <br>
+          <input type="text" placeholder="Lastname" name="lastname">
+        </div>
+        <br>
+        <br>
+        <div class="input_email">
+          <label for="email">EMAIL</label>
+          <br>
+          <br>
+          <span class="register_icon"><img src="img/register_mail.png" alt="register email icon"></span>
+          <input type="email" placeholder="example@email.com" name="email">
+        </div>
+        <br>
+        <br>
+        <div class="input_msg">
+          <label for="msg">YOUR MESSAGE</label>
+          <br>
+          <br>
+          <span class="register_icon"><img src="img/contact_write.png" alt="register msg icon"></span>
+          <textarea rows="10" cols="80" placeholder="Type your message here"></textarea>
+          <br>
+          <button type="submit" name="send">SEND</button>
+        </div>
+        </form>
+      </div>
+    </section>
+    <!--Contact End-->
+
+    <!--Our partners Start-->
+    <section class="our_partners">
+      <h1 id="our_partners">OUR PARTNERS</h1>
+      <img src="img/dropbox.png">
+      <img src="img/dhl.jpg">
+      <img src="img/mediafire.png">
+    </section>
+    <!--Our partners End-->
+
+    <!--Footer Start-->
+    <footer class="footer_1">
+      <img src="img/footer_banner.png">
+      <div class="left_footer">
+      <h1>STACK</h1>
+      <ul>
+        <li><a href="#header_inner">HOME</a></li>
+        <br>
+        <li><a href="#register">REGISTER</a></li>
+        <br>
+        <li><a href="#how_it_works">PROCESS</a></li>
+        <br>
+        <li><a href="#our_partners">PARTNERS</a></li>
+        <br>
+        <li><a href="#contact">CONTACT US</a></li>
+      </ul>
+      </div>
+      <div class="right_footer">
+        <ul>
+          <li><i class="fa fa-phone" aria-hidden="true"></i> 111 22 333</li>
+          <br>
+          <li><i class="fa fa-mobile-phone" aria-hidden="true"></i> 111 22 333</li>
+          <br>
+          <li><i class="fa fa-envelope" aria-hidden="true"></i> stack@stack.com</li>
+        </ul>
+      </div>
+      <footer>
+        <h4>&copy; 2018 Stack. All rights reserved | Desing by Filip Mehmetovic</h4>
+        <span class="footer_icons">
+          <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/"><img id="facebook" src="img/footer_facebook.png"></a>
+          <a target="_blank" rel="noopener noreferrer" href="https://www.google.com/"><img id="google" src="img/footer_google.png"></a>
+          <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/"><img id="linkedin" src="img/footer_linkedin.png"></a>
+          <a target="_blank" rel="noopener noreferrer"href="https://www.twitter.com/"><img id="twitter" src="img/footer_twitter.png"></a>
+        </span>
+      </footer>
+    </footer>
+    <!--Footer End-->
   </body>
 </html>
